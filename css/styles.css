@@ -41,7 +41,14 @@ body {
 .social-links .link:hover {
   color: #2196f3;
 }
-
+.link:hover::after {
+  border: 2px solid #2196f3;
+  content: "";
+  width: 42px;
+  height: 4px;
+  position: absolute;
+  top: 76px;
+}
 .contact-links {
   display: flex;
 
