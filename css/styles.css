@@ -453,7 +453,6 @@ ul {
   position: absolute;
 }
 .overlay {
-  position: absolute;
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -463,6 +462,12 @@ ul {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
 }
 .border-two:hover .overlay {
   transform: translateY(0);
@@ -472,7 +477,10 @@ ul {
   gap: 20px;
   display: flex;
 }
-
+.end {
+  position: relative;
+  overflow: hidden;
+}
 .text {
   font-family: "Roboto";
   font-style: normal;
@@ -495,6 +503,10 @@ ul {
   overflow: hidden;
   width: 370px;
   height: 294px;
+}
+.cos-cos {
+  z-index: 1;
+  position: relative;
 }
 .box {
   display: flex;
