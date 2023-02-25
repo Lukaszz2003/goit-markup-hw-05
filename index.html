@@ -57,7 +57,9 @@
       <section class="hero">
         <div class="container">
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="button pointer" type="button">Zamów usługę</button>
+          <button class="button pointer" type="button" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </section>
       <section class="lorem-ipsum">
@@ -336,7 +338,11 @@
         </div>
       </div>
     </footer>
-
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close>X</button>
+      </div>
+    </div>
     <script src=".js/modal.js"></script>
   </body>
 </html>
